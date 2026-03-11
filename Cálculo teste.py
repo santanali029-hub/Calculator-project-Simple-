@@ -1,4 +1,4 @@
-print("Digite a operação desejada: ", 0, "Saída", 1, "Soma", 2, "Subtração", 3, "Multiplicação", 4, "Divisão")
+print("Digite a operação desejada: ", 0, "Saída", 1, "Soma", 2, "Subtração", 3, "Multiplicação", 4, "Divisão", 5 "Exponenciação")
 
 op = int(input())
 
@@ -21,6 +21,9 @@ elif op == 3:
 
 elif op == 4:
     print("O resultado é = ", num1 / num2)
+
+elif op == 5:
+    print("O resultado é = ", num1 ** num2)
 
 else:
     print("Operação Inválida")
